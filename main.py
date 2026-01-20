@@ -35,7 +35,7 @@ def side_bar():
                 "nav-link": {"font-size": "14px", "text-align": "left", "margin":"0px", "--hover-color": "#fafafa"},
                 "nav-link-selected": {"background-color": "#08c7b4"}
             }
-        )
+            ),
          col1, col2, col3 = st.columns(3)
          with col1:
              # RDS Database Login Session / Logout Function      
